@@ -1,12 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Example from './Chat';
+import '../css/App.css';
+import Chat from './Chat';
 
 function App() {
   return (
     <div className="App container d-flex justify-content-center" >
-      <Example></Example>
+      <Chat></Chat>
     </div>
   );
 }
